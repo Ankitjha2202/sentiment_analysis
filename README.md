@@ -1,16 +1,22 @@
-# Sentiment Analysis
+# Sentiment Analysis Web App
 
-This project implements a sentiment analysis model using natural language processing (NLP) techniques. The model is built using Python and leverages libraries such as Pandas, Scikit-learn, and NLTK.
+This is a simple web application for sentiment analysis. It uses logistic regressio to predict the sentiment of a given text (Positive or Negative).
 
-## Table of Contents
+## Features
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Model Training](#model-training)
-- [Evaluation](#evaluation)
-- [License](#license)
+- Input any text for sentiment analysis.
+- Displays whether the sentiment is positive or negative.
+- Powered by a logistic regression model trained on a sentiment dataset.
 
-## Installation
+## Live Demo
 
-To run this project, you need to have Python installed on your machine. You can install the required packages using pip:
+You can try the live demo of this sentiment analysis app by visiting:
+
+[Live Demo](https://sentiment-analysis-kzeu.onrender.com/)
+
+## Technologies Used
+
+- **Flask**: A lightweight WSGI web application framework for Python.
+- **scikit-learn**: A machine learning library for building the sentiment analysis model.
+- **joblib**: A library for saving and loading the trained model.
+- **HTML/CSS**: For building the frontend of the app.
