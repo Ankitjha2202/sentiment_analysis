@@ -1,6 +1,6 @@
 # Sentiment Analysis Web App
 
-This is a simple web application for sentiment analysis. It uses logistic regressio to predict the sentiment of a given text (Positive or Negative).
+This is a simple web application for sentiment analysis. It uses logistic regression to predict the sentiment of a given text (Positive or Negative).
 
 ## Features
 
