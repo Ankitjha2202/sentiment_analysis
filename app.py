@@ -4,7 +4,6 @@ import os
 
 app = Flask(__name__)
 
-# Load the model and vectorizer
 model_path = os.path.join(os.getcwd(), 'sentiment_model.pkl')
 vectorizer_path = os.path.join(os.getcwd(), 'vectorizer.pkl')
 
@@ -16,7 +15,6 @@ except FileNotFoundError as e:
     print(f"Error: {e}")
     raise FileNotFoundError("Ensure 'sentiment_model.pkl' and 'vectorizer.pkl' are in the working directory.")
 
-# Define a function for rendering the main form
 def render_form():
     return """
     <html>
