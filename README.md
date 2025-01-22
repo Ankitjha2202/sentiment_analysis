@@ -5,7 +5,7 @@ A simple web application that performs sentiment analysis using logistic regress
 ## Features
 
 - Real-time sentiment analysis of user-provided text
-- Binary classification (Positive/Negative) of text sentiment
+- Classification (Positive/Negative/Neutral) of text sentiment
 - Simple and intuitive user interface
 - Powered by a pre-trained logistic regression model
 
