@@ -19,7 +19,7 @@ except FileNotFoundError as e:
 def read_form():
     return render_template("form.html")
 
-@app.route("/predict", methods=["POST"])
+@app.route("/result", methods=["POST"])
 def predict():
     text = request.form["text"]
     try:
